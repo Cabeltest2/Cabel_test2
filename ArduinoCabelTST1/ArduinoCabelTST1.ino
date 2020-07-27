@@ -58,7 +58,7 @@ byte hi;                                                // Старший байт для прео
 byte low;                                               // Младший байт для преобразования числа
 
 //********************* Настройка монитора ***********************************
-UTFT        myGLCD(ITDB32S,38,39,40,41);                // Дисплей 3.2"
+UTFT          myGLCD(ITDB32S,38,39,40,41);                // Дисплей 3.2"
 UTouch        myTouch(6, 5, 4, 3, 2);                   // Standard Arduino Mega/Due shield            : 6,5,4,3,2
 UTFT_Buttons  myButtons(&myGLCD, &myTouch);             // Finally we set up UTFT_Buttons :)
 
